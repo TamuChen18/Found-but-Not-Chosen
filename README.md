@@ -246,10 +246,9 @@ Ankit Basu.
 ## Citation
 
 ```bibtex
-@inproceedings{<CITATION_KEY>,
-  title     = {Found but Not Chosen: Attribution and Selection in Structured Workflow Planning on DisasterBench},
-  author    = {<AUTHORS>},
-  booktitle = {<VENUE>},
-  year      = {2026}
+@inproceedings{chen2026found,
+  title  = {Found but Not Chosen: Attribution and Selection in Structured Workflow Planning on DisasterBench},
+  author = {Chen, Zhitong and others},
+  year   = {2026}
 }
 ```
