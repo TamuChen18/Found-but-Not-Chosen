@@ -1,4 +1,4 @@
-# Found but Not Chosen: Attribution and Selection in Structured Workflow Planning on DisasterBench
+# From Apparent Search Gains to Selection Failures: Auditing Test-Time Inference in Structured Workflow Planning
 
 Code, candidate pools, cached LLM decisions and analysis scripts for the paper. Every number, table and figure of
 the paper can be regenerated offline from the released candidate pools with one command, and is then checked
@@ -247,12 +247,41 @@ public-domain implementation by Luke Harold Miles, and the DisasterBench_Open be
 are MIT-licensed. The adaptation of the search to DisasterBench builds on an earlier, unpublished prototype by
 Ankit Basu.
 
-## Citation
+## 👥 Authors & Maintainer
+
+**Paper Authors:** Zhitong Chen, Weifeng Zhang, Kai Yin, Zhiyuan Wang, Ali Mostafavi, and James Caverlee.
+
+**Repository Maintainer:** Zhitong Chen
+
+For questions about the implementation, evaluation framework, or experimental results, please open a GitHub issue.
+
+---
+
+## 📜 Citation
+
+If you find this repository useful in your research, please consider citing our paper:
 
 ```bibtex
-@inproceedings{chen2026found,
-  title  = {Found but Not Chosen: Attribution and Selection in Structured Workflow Planning on DisasterBench},
-  author = {Chen, Zhitong and others},
+@misc{chen2026apparent,
+  title  = {From Apparent Search Gains to Selection Failures: Auditing Test-Time Inference in Structured Workflow Planning},
+  author = {Chen, Zhitong and Zhang, Weifeng and Yin, Kai and Wang, Zhiyuan and Mostafavi, Ali and Caverlee, James},
   year   = {2026}
 }
 ```
+
+---
+
+## ⚖️ License
+
+The original code, documentation, figures, and result files in this repository are released under the MIT License (see [LICENSE](LICENSE)).
+
+Third-party components retain their respective licenses and copyright notices, as documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the `licenses/` directory.
+
+Specifically:
+
+- Portions of `src/` and `baselines/` are adapted from [rStar](https://github.com/microsoft/rStar) (MIT License, Copyright © 2024 rStar Team) and ThoughtICR (MIT License, Copyright © 2025 Jinyang Wu).
+- The MCTS core is based on a public-domain implementation by Luke Harold Miles.
+- The DisasterBench_Open benchmark, evaluator, and tool manifest are MIT-licensed.
+- The adaptation of the search framework to DisasterBench builds upon an earlier, unpublished prototype developed by Ankit Basu.
+
+All third-party components retain their applicable licensing and attribution requirements.
